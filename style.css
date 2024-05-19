@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.link_1{
+    color: hsl(0, 0%, 75%);
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.links{
+    margin-right: 30px;
+}
+.logo_1{
+    width: 100px;
+    margin-left: 30px;
+}
+
+.second_section{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.container_1{
+    width: 50%;
+    margin-left: 50px;
+    
+}
+.container_2{
+    width: 50%;
+    margin-right: 30px;
+    margin-left: 20%;
+}
+
+.image_1{
+    width: 70%;
+    margin-left: 20%;
+    
+}
+.paragraph_1{
+    font-size: 16px;
+   /* margin-top: 5px;*/
+    color: black;
+}
+h3{
+    color: black;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.email_input1{
+    width: 35%;
+    padding: 8px 30px;
+    color: hsl(0, 0%, 75%);/*supposed to be placeholder colour*/
+    border-color: hsl(0, 0%, 75%);
+    
+}
+button{
+    padding:8px 30px; 
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    color: white;
+}
+
+.avatar{
+    width: 40px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+.second_main{
+    background-image: url("images/bg-curve-desktop.svg");
+}
+.link_2{
+    color: hsl(170, 45%, 43%);
+
+}
+.personal_introduction{
+    background-color: white;
+    margin-top: 30px;
+    margin-right: 200px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px #888888;
+}
+.intro{
+    display: flex;
+}
+.small_intro{
+    margin-top: none;
+}
+.name{
+    margin-left: 5px;
+    margin-bottom: none;
+    margin-top: 10px;
+}
+.title{
+    margin-left: 5px;
+    margin-top: none;
+}
+.third_main{
+    background-color:hsl(238, 22%, 44%);
+}
+.paragraph_2{
+    color: white;
+}
+.email_input2{
+    width: 65%;
+    padding: 8px 30px;
+    color: hsl(0, 0%, 75%);/*supposed to be placeholder colour*/
+    border-color: hsl(0, 0%, 75%);
+    border-radius: 5px;
+    border-style: hidden;
+    margin-bottom: 10px;
+}
+h4{
+    color: white;
+}
+.container_3{
+    width: 50%;
+    margin-right: 30px;
+    margin-left: 50%;   
+}
+.container_4{
+    width: 50%;
+    margin-left: 100%;
+}
+.fourth_main{
+    background-color: hsl(243, 87%, 12%);
+}
+.third_section{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.logo_2{
+    width: 100px;
+    margin-left: 30px;
+    color: white;
+}
+.link_3{
+    color: white;
+    text-decoration: none;
+}
+.arrow{
+    width: 12px;
+}
+.phone{
+    width: 12px;
+}
+@media screen  and (max-width: 600px) {
+    .first_section{
+        flex-direction: column;
+    }
+    .second_section,.third_section,fourth_section{
+        flex-direction: column;
+        padding: 30px;
+    }
+}
+
